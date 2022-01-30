@@ -1,0 +1,19 @@
+.topbar {
+  background-color: white;
+  border-bottom: 1px solid rgb(219, 219, 219);
+  z-index: 100;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+.topbarWrapper {
+  height: 60px;
+  /* background-color: #1c1e21; */
+  /* background-color: red; */
+  color: #1c1e21;
+  display: flex;
+  align-items: center;
+  max-width: 1000px;
+  margin: 0 auto;
+}

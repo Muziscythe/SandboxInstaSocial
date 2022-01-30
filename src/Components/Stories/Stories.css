@@ -1,0 +1,16 @@
+.stories {
+  max-width: 650px;
+  /* overflow: hidden; */
+}
+
+.storiesWrapper {
+  background-color: white;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  padding: 15px 10px;
+  border: 1px solid rgb(219, 219, 219);
+  margin: 20px 15px;
+  overflow-x: scroll;
+  overflow-y: hidden;
+}

@@ -1,0 +1,11 @@
+.home {
+}
+
+.home__body {
+  position: relative;
+  display: flex;
+  margin: 0 auto;
+  /* background-color: blue; */
+  max-width: 1000px;
+  margin-top: 60px;
+}

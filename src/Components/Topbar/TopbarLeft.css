@@ -1,0 +1,13 @@
+.topbarLeft {
+  flex: 8;
+  display: flex;
+  /* background-color: red; */
+}
+
+.topbarLeft__logo {
+  margin: 10px;
+  margin-left: 15px;
+  /* color: #1877f2; */
+  color: #222333;
+  cursor: pointer;
+}

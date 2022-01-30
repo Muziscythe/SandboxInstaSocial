@@ -1,0 +1,19 @@
+.profileUserDesc {
+  margin: 0 20px;
+  max-width: 300px;
+}
+
+.profileUserDesc > p {
+  margin: 0;
+  font-size: 0.97rem;
+}
+
+.profileUserDesc__nickname {
+  font-weight: 500;
+}
+
+@media only screen and (max-width: 600px) {
+  .profileUserDesc > p {
+    font-size: 0.8rem;
+  }
+}

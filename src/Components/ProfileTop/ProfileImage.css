@@ -1,0 +1,27 @@
+.profileImage {
+  display: flex;
+  justify-content: center;
+  height: 250px;
+  /* padding: 20px 10px; */
+  margin: 40px 20px 0;
+}
+
+.profileImage > img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 100%;
+  border: 1px solid rgb(219, 219, 219);
+  /* margin-left: auto; */
+}
+
+@media only screen and (max-width: 600px) {
+  .profileImage > img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 100%;
+    border: 1px solid rgb(219, 219, 219);
+    /* margin-left: auto; */
+  }
+}

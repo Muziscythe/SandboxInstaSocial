@@ -1,0 +1,22 @@
+.profileTop {
+  display: flex;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.profileTop__image {
+  flex: 4;
+}
+
+.profileTop__body {
+  flex: 8;
+}
+
+@media only screen and (max-width: 600px) {
+  .profileTop__image {
+    flex: 2;
+  }
+  .profileTop__body {
+    flex: 10;
+  }
+}

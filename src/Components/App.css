@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.app-logo {
+  font-family: "Ubuntu", sans-serif;
+}
+
+body {
+  background-color: rgb(250, 250, 250);
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}

@@ -1,0 +1,19 @@
+.topbarMiddle {
+  flex: 5;
+}
+
+.topbarMiddle__search {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+/* .topbarMiddle__iconContainer {
+}
+.topbarMiddle__iconContainer:hover {
+  background-color: red;
+} */
+
+.topbarMiddle__icons {
+  font-size: 1.6rem;
+  /* background-color: green; */
+}
